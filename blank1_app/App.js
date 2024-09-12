@@ -9,10 +9,10 @@ class Index extends Component {
             <View style={{flexDirection: "row", backgroundColor: "red", flex:1}}>
                 <Text style={{fontSize: 40 }}>Hello, World!</Text>
               <View style={{backgroundColor: "green", flex: 2}}>
-                <Text style={{fontSize: 40 }}>Hello, World!</Text>
+                <Text style={{fontSize: 40 }}>Box1</Text>
               </View>
               <View style={{backgroundColor: "grey", flex: 3}}>
-                <Text style={{fontSize: 40 }}>Hello, World!</Text>
+                <Text style={{fontSize: 40 }}>Box2</Text>
               </View>
             </View>
             
