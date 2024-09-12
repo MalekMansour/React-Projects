@@ -26,11 +26,11 @@ const styles = StyleSheet.create({
         borderWidth: 2, // Width of the border
         borderRadius: 5, // Rounded corners
         padding: 10, // Padding inside the button
-        alignItems: 'center', // Center the text horizontally
+        alignItems: 'center', 
     },
     buttonText: {
-        color: "#000000", // Text color
-        fontSize: 16, // Font size
+        color: "#000000", 
+        fontSize: 16, 
     },
 });
 
