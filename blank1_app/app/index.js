@@ -1,19 +1,19 @@
 // class component or functional components
 
 import { Component } from "react";
-import { View, Text } from "react-native";
+import { View, Text, Button } from "react-native";
 
 class Index extends Component {
     render() {
         return (
-            <View style={{flexDirection: "row", backgroundColor: "red", flex:1}}>
-                <Text style={{fontSize: 40 }}>Hello, World!</Text>
-              <View style={{backgroundColor: "green", flex: 2}}>
-                <Text style={{fontSize: 40 }}>Box1</Text>
-              </View>
-              <View style={{backgroundColor: "grey", flex: 3}}>
-                <Text style={{fontSize: 40 }}>Box2</Text>
-              </View>
+            <View style={{flexDirection: "row", backgroundColor: "#542095", flex:1}}>
+                <View style={{margin: 80, flex:5, marginTop: 400}}>
+                <Button
+                    title = "Press Me"
+                    color="#000000"
+                    onPress={() => alert("You tapped the button!")}
+                ></Button>
+                </View>
             </View>
             
             
