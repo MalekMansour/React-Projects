@@ -21,11 +21,11 @@ class Index extends Component {
 // Define styles
 const styles = StyleSheet.create({
     button: {
-        backgroundColor: "#FFFFFF", // Background color of the button
-        borderColor: "#000000", // Border color
-        borderWidth: 2, // Width of the border
-        borderRadius: 5, // Rounded corners
-        padding: 10, // Padding inside the button
+        backgroundColor: "#FFFFF2", 
+        borderColor: "#000000", 
+        borderWidth: 2, 
+        borderRadius: 5, 
+        padding: 10, 
         alignItems: 'center', 
     },
     buttonText: {
