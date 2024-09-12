@@ -1,10 +1,8 @@
-import Index from './app/index.js'; 
+import Index from './app/index'; 
 
 function App() {
   return (
-    <div>
-      <Index />
-    </div>
+      <Index/>
   );
 }
 
