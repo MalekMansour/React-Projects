@@ -5,7 +5,7 @@ class Index extends Component {
     render() {
         return (
             <View style={{ flexDirection: "row", backgroundColor: "#542095", flex: 1 }}>
-                <Text style={{color: "#FFFF09", marginTop: 300}}>Malek</Text>
+                <Text style={{color: "#F1FFF9", marginTop: 300}}>Malek</Text>
                 <View style={{ margin: 80, flex: 5, marginTop: 400 }}>
                     <TouchableOpacity 
                         style={styles.button}
