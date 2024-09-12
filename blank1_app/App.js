@@ -6,7 +6,7 @@ import { View, Text } from "react-native";
 class Index extends Component {
     render() {
         return (
-            <View style={{backgroundColor: "Blue"}}>
+            <View style={{backgroundColor: "green"}}>
                 <Text style={{fontSize: 40 }}>Hello, World!</Text>
             </View>
         );
