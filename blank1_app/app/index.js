@@ -26,7 +26,7 @@ class Index extends Component {
 
     render() {
         return (
-            <View style={{ flex: 1, padding: 20, backgroundColor: "#542095" }}>
+            <View style={{ flex: 1, padding: 20, backgroundColor: "#588095" }}>
                 <Text style={{ color: "#F1FFF9", fontSize: 24, marginBottom: 20 }}>Notes</Text>
                 
                 <TextInput
