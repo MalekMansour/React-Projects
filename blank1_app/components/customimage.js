@@ -1,17 +1,25 @@
-//image is corecomponent 
-// local drive and url of an internet image
-
-import { StyleSheet, Text, View } from 'react-native';
-import React from 'react';
+import { View, Text, Image, StyleSheet } from "react-native";
+import React from "react";
 
 const Customimage = () => {
   return (
-    <View>
-      <Image></Image>
+    <View style={styles.container}>
+      <Text>customimage</Text>
+      <Image
+        source={require("../assets/images/icon.png")}
+        style={styles.image}
+      ></Image>
     </View>
   );
 };
 
 export default Customimage;
-
-const styles = StyleSheet.create({})
+const styles = StyleSheet.create({
+  image: {
+    width: 166,
+    height: 150,
+  },
+  container: {
+    flex: 1,
+  },
+});
