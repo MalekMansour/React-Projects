@@ -5,7 +5,7 @@ const Custombutton = () => {
   return (
     <View>
       <Text>custombutton</Text>
-      <Button title="Click me"></Button>
+      <Button title="Click me" onPress={() => alert("Button Pressed")} />
     </View>
   )
 }
