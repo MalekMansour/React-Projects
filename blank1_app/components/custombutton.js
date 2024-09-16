@@ -5,6 +5,7 @@ const Custombutton = () => {
   return (
     <View>
       <Text>custombutton</Text>
+      <Button title="Click me"></Button>
     </View>
   )
 }
