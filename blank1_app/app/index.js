@@ -15,7 +15,7 @@ const Index = () => {
 
 export default Index
 
-const  Fruit=()=>{
+const Fruit=()=>{
     return(
         <Text style={{
             fontSize: 25, 
@@ -24,5 +24,18 @@ const  Fruit=()=>{
             height:40,
             backgroundColor: "blue",
             color: "white"}}>Fruit name is Apple</Text>
+    )
+}
+
+const Empdata=()=>{
+    const name="John";
+    const id="EMP001";
+    const Email="john@gmail.com"
+    return(
+        <View>
+            <Text>Emp Name: </Text>
+            <Text>Emp Id: </Text>
+            <Text>Emp Email: </Text>
+        </View>
     )
 }
