@@ -30,12 +30,12 @@ const Fruit=()=>{
 const Empdata=()=>{
     const name="John";
     const id="EMP001";
-    const Email="john@gmail.com"
+    const email="john@gmail.com"
     return(
         <View>
-            <Text>Emp Name: </Text>
-            <Text>Emp Id: </Text>
-            <Text>Emp Email: </Text>
+            <Text>Emp Name: {name}</Text>
+            <Text>Emp Id: {id}</Text>
+            <Text>Emp Email: {email}</Text>
         </View>
     )
 }
