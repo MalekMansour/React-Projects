@@ -1,12 +1,12 @@
 import { View, Text } from 'react-native'
 import React from 'react'
 
-const index = () => {
+const Index = () => {
   return (
-    <View>
-      <Text>index</Text>
+    <View style={{flex:1, justifyContent:"center", alignItems: "center"}}>
+      <Text>I am in React native class</Text>
     </View>
   )
 }
 
-export default index
+export default Index
