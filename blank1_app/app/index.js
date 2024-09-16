@@ -1,5 +1,6 @@
 import { View, Text } from 'react-native'
 import React from 'react'
+import Custombutton  from '../components/custombutton'  
 
 const Index = () => {
     const name = "Banana"
@@ -8,6 +9,7 @@ const Index = () => {
       <Text style={{fontSize: 25}}>I am in React native class {name} </Text>
       <Fruit/>
       <Fruit/>
+      <Custombutton/>
     </View>
   )
 }
@@ -33,7 +35,7 @@ const Empdata=()=>{
     const name="John";
     const id="EMP001";
     const email="john@gmail.com"
-    return(
+    return (
         <View>
             <Text style={{
             fontSize: 15, 
