@@ -13,6 +13,6 @@ export default Index
 
 const  Fruit=()=>{
     return(
-        <Text></Text>
+        <Text style={{fontSize: 25}}>Fruit name is Apple</Text>
     )
 }
