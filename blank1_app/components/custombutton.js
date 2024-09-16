@@ -1,7 +1,7 @@
 import { StyleSheet, Text, View } from 'react-native'
-import React from 'react'
+import React from 'react';
 
-const custombutton = () => {
+const Custombutton = () => {
   return (
     <View>
       <Text>custombutton</Text>
@@ -9,6 +9,6 @@ const custombutton = () => {
   )
 }
 
-export default custombutton
+export default Custombutton;
 
-const styles = StyleSheet.create({})
+const styles = StyleSheet.create({});
