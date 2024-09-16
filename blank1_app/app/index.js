@@ -10,3 +10,9 @@ const Index = () => {
 }
 
 export default Index
+
+const  Fruit=()=>{
+    return(
+        <Text></Text>
+    )
+}
