@@ -68,7 +68,7 @@ console.log('Player 2: ' + player2Score);
 console.log();
 
 // Scenario 3
-names = [
+const names = [
 	'Santa',
 	'Rudolph',
 	'Dasher',
