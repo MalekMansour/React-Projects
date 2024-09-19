@@ -4,11 +4,15 @@ import React from 'react';
 const TextInputCustom = () => {
   return (
     <View style={styles.container}>  
-      <Text style={styles.text}>Search</Text> 
       <Image
         style={{ width: 100, height: 100, borderRadius: 10 }}
-        source={require("../assets/search.png")}
-      />
+        source={require("../assets/search.png")}/>
+      <Text style={{color: "white", fontSize: 20,fontWeight: "bold", marginTop: 20}}>
+        Search
+        </Text> 
+        <View style={styles.container1}>
+        <Text>Welcome</Text>
+        </View>
     </View>
   );
 }
@@ -22,8 +26,11 @@ const styles = StyleSheet.create({
     justifyContent: "center",
     alignItems: "center"
   },
-  text: {
-    color: "white",  
-    fontSize: 16,
+  container1: {
+    marginTop: 20,
+    marginBottom: 20,
+    alignItems: "center",
+    color: "white"
+
   }
 });
