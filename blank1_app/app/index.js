@@ -1,12 +1,11 @@
-import { StyleSheet, Text, View } from "react-native";
+import { StyleSheet, View } from "react-native"; 
 import React from "react";
-import Customimage from "../components/customimage";
+import TextInputCustom from "../components/textinputcustom"; 
 
 const Index = () => {
   return (
-    <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
-      <Text style={{ fontSize: 40 }}>Image</Text>
-      <Customimage />
+    <View style={{ flex: 1 }}>
+      <TextInputCustom />
     </View>
   );
 };
