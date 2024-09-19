@@ -5,9 +5,9 @@ const TextInputCustom = () => {
   return (
     <View style={styles.container}>  
       <Text style={styles.text}>hello</Text> 
-      <image>
+      <image
         style={{ width: 100, height: 100, borderRadius: 10 }}
-        source={require("../assets/search.png")}</image>
+        source={require("../assets/search.png")}></image>
     </View>
   );
 }

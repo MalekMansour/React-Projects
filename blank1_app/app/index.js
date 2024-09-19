@@ -1,4 +1,4 @@
-import { StyleSheet, View } from "react-native"; 
+import { StyleSheet, View, Image} from "react-native"; 
 import React from "react";
 import TextInputCustom from "../components/textinputcustom"; 
 
