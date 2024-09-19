@@ -6,12 +6,23 @@ const TextInputCustom = () => {
     <View style={styles.container}>  
       <Image
         style={{ width: 100, height: 100, borderRadius: 10 }}
-        source={require("../assets/search.png")}/>
+        source={require("../assets/react.jpg")}/>
       <Text style={{color: "white", fontSize: 20,fontWeight: "bold", marginTop: 20}}>
-        Search
+        EVERY REACT NATIVE APP
         </Text> 
         <View style={styles.container1}>
-        <Text style={styles.view2}>Welcome</Text>
+        <View style={styles.view2}>
+        <Text style={styles.text}>WE DID IT AGAIN</Text>
+        </View>
+        <View style={styles.view2}>
+        <Text style={styles.text}>To</Text>
+        </View>
+        <View style={styles.view2}>
+        <Text style={styles.text}>The</Text>
+        </View>
+        <View style={styles.view2}>
+        <Text style={styles.text}>App</Text>
+        </View>
         </View>
     </View>
   );
@@ -34,9 +45,15 @@ const styles = StyleSheet.create({
   view2:{
    backgroundColor: "white",
    color: "black",
-   borderRadius: 20,
+   borderRadius: 60,
    paddingHorizontal: 10,
-   paddingVertical: 20
-
+   paddingVertical: 20,
+   marginBottom: 10,
+   alignItems: "center",
+  },
+  text:{
+    fontSize: 20,
+    fontWeight: "bold",
+    color: "green"
   }
 });
