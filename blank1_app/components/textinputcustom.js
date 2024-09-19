@@ -11,7 +11,7 @@ const TextInputCustom = () => {
         Search
         </Text> 
         <View style={styles.container1}>
-        <Text>Welcome</Text>
+        <Text style={styles.view2}>Welcome</Text>
         </View>
     </View>
   );
@@ -28,9 +28,15 @@ const styles = StyleSheet.create({
   },
   container1: {
     marginTop: 20,
-    marginBottom: 20,
+    marginBottom: 30,
     alignItems: "center",
-    color: "white"
+  },
+  view2:{
+   backgroundColor: "white",
+   color: "black",
+   borderRadius: 20,
+   paddingHorizontal: 10,
+   paddingVertical: 20
 
   }
 });
