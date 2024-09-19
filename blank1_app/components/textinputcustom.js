@@ -1,4 +1,4 @@
-import { StyleSheet, Text, View, Image } from 'react-native'; 
+import { StyleSheet, Text, View, Image, TextInput } from 'react-native'; 
 import React from 'react';
 
 const TextInputCustom = () => {
@@ -10,19 +10,32 @@ const TextInputCustom = () => {
       <Text style={{color: "white", fontSize: 20,fontWeight: "bold", marginTop: 20}}>
         EVERY REACT NATIVE APP
         </Text> 
+
         <View style={styles.container1}>
-        <View style={styles.view2}>
-        <Text style={styles.text}>WE DID IT AGAIN</Text>
+            <View style={styles.view2}>
+                <Text style={styles.text}>WE DID IT AGAIN</Text>
+            </View>
+            <View style={styles.view2}>
+                <Text style={styles.text}>WE DID IT AGAIN</Text>
+            </View>
+            <View style={styles.view2}>
+                <Text style={styles.text}>WE DID IT AGAIN</Text>
+            </View>
+            <View style={styles.view2}>
+                <Text style={styles.text}>WE DID IT AGAIN</Text>
+            </View>
         </View>
-        <View style={styles.view2}>
-        <Text style={styles.text}>To</Text>
-        </View>
-        <View style={styles.view2}>
-        <Text style={styles.text}>The</Text>
-        </View>
-        <View style={styles.view2}>
-        <Text style={styles.text}>App</Text>
-        </View>
+
+        <View style={{flexDirection: "row"}}>
+            <Text style={styles.text1}>INPUT :</Text>
+            <TextInput 
+            style={{
+                height:"auto", 
+                width: "50%", 
+                paddingHorizontal: 10,
+                backgroundColor: "white",
+                borderRadius: 10,
+                 }} placeholder="Input Name"></TextInput>
         </View>
     </View>
   );
@@ -37,11 +50,13 @@ const styles = StyleSheet.create({
     justifyContent: "center",
     alignItems: "center"
   },
+  
   container1: {
     marginTop: 20,
     marginBottom: 30,
     alignItems: "center",
   },
+  
   view2:{
    backgroundColor: "white",
    color: "black",
@@ -51,9 +66,15 @@ const styles = StyleSheet.create({
    marginBottom: 10,
    alignItems: "center",
   },
+  
   text:{
     fontSize: 20,
     fontWeight: "bold",
     color: "green"
+  },
+
+  text1:{
+    color: "white",
+    marginRight: 10,
   }
 });
