@@ -4,8 +4,8 @@
 
 # NPM Commands
 - Creating a react expo app
-npx create-expo-app --template
+''' npx create-expo-app --template '''
 (Remember to cd to your app)
 
 - Starting the app
-npm run web
+''' npm run web '''
