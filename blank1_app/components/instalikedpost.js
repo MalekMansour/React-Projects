@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { StyleSheet, Text, View, TouchableOpacity } from "react-native";
-import Icon from "react-native-vector-icons/FontAwesome"; // Import the heart icon from FontAwesome
+import Icon from "react-native-vector-icons/FontAwesome"; 
 
 const InstaLikedPost = () => {
   const [liked, setLiked] = useState(false);
@@ -21,9 +21,9 @@ const InstaLikedPost = () => {
       <Text style={styles.likeCount}>{likeCount} Likes</Text>
       <TouchableOpacity onPress={handleLike}>
         <Icon
-          name={liked ? "heart" : "heart-o"} // Filled heart if liked, otherwise empty heart
-          size={30}
-          color={liked ? "red" : "black"} // Red if liked, black if not
+          name={liked ? "heart" : "heart-o"}
+          size={50}
+          color={liked ? "red" : "black"} 
         />
       </TouchableOpacity>
     </View>
